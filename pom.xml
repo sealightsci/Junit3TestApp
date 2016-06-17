@@ -13,12 +13,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
-			<groupId>io.sealights.on-premise.agents</groupId>
-			<artifactId>java-agent-api</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-			<scope>test</scope>
-		</dependency>
+	
 	</dependencies>
 
 	<build>
@@ -27,12 +22,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19</version>
-				<configuration>
-					<!-- -Dsl.dumpClass=true  -->
-					<argLine>
-						 -Dsl.log.enabled=true -Dsl.log.level=info -Dsl.log.toFile=true	-javaagent:"C:\Work\Projects\SL.OnPremise.Agents.Java\java-agent-bootstrapper\target\java-agent-bootstrapper-1.0.0-SNAPSHOT.jar"
-					</argLine>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
