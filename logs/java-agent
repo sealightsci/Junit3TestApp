@@ -1,0 +1,163 @@
+2016-06-17 08:08:28,339 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'sealights.json', working directory: 'C:\Work\Playground\JUnit3TestApp'
+2016-06-17 08:08:28,422 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-06-17 08:08:28,422 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-06-17 08:08:28,422 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-06-17 08:08:28,423 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false, enableAmazonSQS=true, enableJersey=true, enableRabbitMQ=true, enableJetty=true, enableNetty=true, enableSpring=true, enableJavaUrl=true, enableApacheAbstractHttpClient=true, enableApacheInternalHttpClient=true, enableApacheMinimalHttpClient=true, enableTestParticipantNotifier=false, enableTestEndSupport=true, addJunit4Listener=false, addJunit3Listener=true, compressRequests=true, enableHttpColoring=true, enableQueuesColoring=true, sendFootprints=true, sendTestEvents=true}'
+2016-06-17 08:08:28,423 INFO  [main] [ConfigurationManager] Proxy: 'http://127.0.0.1:8888'
+2016-06-17 08:08:28,423 INFO  [main] [ConfigurationManager] Server: 'http://52.16.209.131:8080/api'
+2016-06-17 08:08:28,423 INFO  [main] [ConfigurationManager] AppName: 'TestApp'
+2016-06-17 08:08:28,423 INFO  [main] [ConfigurationManager] CustomerId: 'SeaLights'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] Includes: 'io.demo.*'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '5000'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] ModuleName: 'null'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-06-17 08:08:28,424 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*, *EnhancerBySpringCGLIB*'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] ClassLoadersExcluded: 'org.powermock.core.classloader.MockClassLoader'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] TestParticipants: 'null'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] InitialColor: 'null'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] EndTestSupportInterval: '30000'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] FootprintsChunkSize: '104857600'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] LogConfiguration: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-06-17 08:08:28,427 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-06-17 08:08:28,427 WARN  [main] [ConfigurationManager] ConfigurationManager.trySetProxy - 'Proxy' is set in the configuration file. Overriding Java's proxy using Java's System Properties.
+2016-06-17 08:08:28,428 INFO  [main] [ConfigurationManager] ConfigurationManager.trySetProxy - Set the following System Properties: 'http.proxyHost=127.0.0.1' and 'http.proxyPort=8888'.
+2016-06-17 08:08:28,435 WARN  [main] [StateTracker] setCurrentTestIdentifier - newIdentifier is 'null' and currentTestIdentifier is 'null'
+2016-06-17 08:08:28,449 INFO  [main] [AgentManager] Initializing...
+2016-06-17 08:08:28,450 INFO  [main] [FootprintsQueueSender] FootprintsQueueSender started.
+2016-06-17 08:08:28,450 INFO  [main] [createEventsManager] Starting
+2016-06-17 08:08:28,452 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-06-17 08:08:28,458 INFO  [main] [AgentManager] Initialized!
+2016-06-17 08:08:28,470 INFO  [main] [ProcessColoringWeaver] Instrumenting class for process coloring: java/net/URL
+2016-06-17 08:08:28,475 INFO  [main] [ColoringClassVisitor] visit - version: '52', access: '49', name: 'java/net/URL', signature: <null>, superName: 'java/lang/Object', interfaces: '[Ljava.lang.String;@27d6c5e0'
+2016-06-17 08:08:28,478 INFO  [main] [ColoringClassVisitor] Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.URLConnectionMethodVisitor' for class 'java.net.URL'
+2016-06-17 08:08:28,498 WARN  [main] [OutgoingColorHandler] handleRequest - Current request is 'null'. Ignoring request
+2016-06-17 08:08:28,502 WARN  [main] [OutgoingColorHandler] handleRequest - Current request is 'null'. Ignoring request
+2016-06-17 08:08:28,536 WARN  [main] [OutgoingColorHandler] handleRequest - Current request is 'null'. Ignoring request
+2016-06-17 08:08:28,542 WARN  [main] [OutgoingColorHandler] handleRequest - Current request is 'null'. Ignoring request
+2016-06-17 08:08:28,543 INFO  [main] [JUnitWeaver] Instrumenting JUnit: junit/framework/TestResult
+2016-06-17 08:08:28,547 INFO  [main] [JUnitClassVisitor] visit - version: '196653', access: '33', name: 'junit/framework/TestResult', signature: <null>, superName: 'java/lang/Object', interfaces: '[Ljava.lang.String;@1ed6993a'
+2016-06-17 08:08:28,547 INFO  [main] [JUnitClassVisitor] Weaved JUnit. Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.JUnit3.AddErrorMethodVisitor' for class 'junit.framework.TestResult'
+2016-06-17 08:08:28,548 INFO  [main] [JUnitClassVisitor] Weaved JUnit. Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.JUnit3.AddFailureMethodVisitor' for class 'junit.framework.TestResult'
+2016-06-17 08:08:28,548 INFO  [main] [JUnitClassVisitor] Weaved JUnit. Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.JUnit3.EndTestMethodVisitor' for class 'junit.framework.TestResult'
+2016-06-17 08:08:28,548 INFO  [main] [JUnitClassVisitor] Weaved JUnit. Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.JUnit3.StartTestMethodVisitor' for class 'junit.framework.TestResult'
+2016-06-17 08:08:28,553 WARN  [main] [OutgoingColorHandler] handleRequest - Current request is 'null'. Ignoring request
+2016-06-17 08:08:28,554 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: io/demo/tests/MySimpleTest
+2016-06-17 08:08:28,575 WARN  [main] [OutgoingColorHandler] handleRequest - Current request is 'null'. Ignoring request
+2016-06-17 08:08:28,575 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: io/demo/MyTestedClass
+2016-06-17 08:08:28,584 INFO  [main] [JUnit3Helper] Initializing...
+2016-06-17 08:08:28,586 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', framework='JUnit'}'
+2016-06-17 08:08:28,586 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: '07d96496-63ef-4f3e-9a82-6caed94e67ee/__init'
+2016-06-17 08:08:28,586 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-06-17 08:08:28,586 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-06-17 08:08:28,586 INFO  [main] [JUnit3Helper] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,587 INFO  [main] [JUnit3Helper] Done Initializing. executionId: '07d96496-63ef-4f3e-9a82-6caed94e67ee'
+2016-06-17 08:08:28,587 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test4' is starting. Notifying SeaLights.
+2016-06-17 08:08:28,587 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '07d96496-63ef-4f3e-9a82-6caed94e67ee/__init', new: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test4'
+2016-06-17 08:08:28,587 INFO  [main] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/__init'
+2016-06-17 08:08:28,588 INFO  [main] [FootprintsManager] enqueueFootprints. Total footprints: '2', Average size: 129, Chunk size: 258, IsEmpty: false
+2016-06-17 08:08:28,589 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test4'}'
+2016-06-17 08:08:28,589 INFO  [main] [JUnit3Helper] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,594 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test4' has finished. hasTestPassed: 'true'
+2016-06-17 08:08:28,595 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test4'}'
+2016-06-17 08:08:28,595 INFO  [main] [JUnit3Helper] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,595 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test2' is starting. Notifying SeaLights.
+2016-06-17 08:08:28,595 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test4', new: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test2'
+2016-06-17 08:08:28,596 INFO  [main] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test4'
+2016-06-17 08:08:28,596 INFO  [main] [FootprintsManager] enqueueFootprints. Total footprints: '2', Average size: 194, Chunk size: 388, IsEmpty: false
+2016-06-17 08:08:28,596 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test2'}'
+2016-06-17 08:08:28,596 INFO  [main] [JUnit3Helper] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,599 ERROR [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test2' has failed due to an error. Error: {}
+java.lang.IllegalArgumentException: null
+	at io.demo.tests.MySimpleTest.test2(MySimpleTest.java:17) ~[test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at junit.framework.TestCase.runTest(TestCase.java:154) [junit-3.8.1.jar:na]
+	at junit.framework.TestCase.runBare(TestCase.java:127) [junit-3.8.1.jar:na]
+	at junit.framework.TestResult$1.protect(TestResult.java:106) ~[junit-3.8.1.jar:na]
+	at junit.framework.TestResult.runProtected(TestResult.java:124) [junit-3.8.1.jar:na]
+	at junit.framework.TestResult.run(TestResult.java:109) [junit-3.8.1.jar:na]
+	at junit.framework.TestCase.run(TestCase.java:118) [junit-3.8.1.jar:na]
+	at junit.framework.TestSuite.runTest(TestSuite.java:208) [junit-3.8.1.jar:na]
+	at junit.framework.TestSuite.run(TestSuite.java:203) [junit-3.8.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:99) [surefire-junit3-2.19.jar:2.19]
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:128) [surefire-junit3-2.19.jar:2.19]
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:106) [surefire-junit3-2.19.jar:2.19]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286) [surefire-booter-2.19.jar:2.19]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240) [surefire-booter-2.19.jar:2.19]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121) [surefire-booter-2.19.jar:2.19]
+2016-06-17 08:08:28,602 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test2' has finished. hasTestPassed: 'false'
+2016-06-17 08:08:28,602 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test2'}'
+2016-06-17 08:08:28,602 INFO  [main] [JUnit3Helper] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,602 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test1' is starting. Notifying SeaLights.
+2016-06-17 08:08:28,602 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test2', new: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test1'
+2016-06-17 08:08:28,602 INFO  [main] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test2'
+2016-06-17 08:08:28,602 INFO  [main] [FootprintsManager] enqueueFootprints. Total footprints: '1', Average size: 156, Chunk size: 156, IsEmpty: false
+2016-06-17 08:08:28,602 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test1'}'
+2016-06-17 08:08:28,602 INFO  [main] [JUnit3Helper] TestStart: 3, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,602 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test1' has finished. hasTestPassed: 'true'
+2016-06-17 08:08:28,603 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test1'}'
+2016-06-17 08:08:28,603 INFO  [main] [JUnit3Helper] TestStart: 3, TestEnd: 3, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,603 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test3' is starting. Notifying SeaLights.
+2016-06-17 08:08:28,603 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test1', new: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test3'
+2016-06-17 08:08:28,603 INFO  [main] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test1'
+2016-06-17 08:08:28,603 INFO  [main] [FootprintsManager] enqueueFootprints. Total footprints: '2', Average size: 194, Chunk size: 388, IsEmpty: false
+2016-06-17 08:08:28,603 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test3'}'
+2016-06-17 08:08:28,603 INFO  [main] [JUnit3Helper] TestStart: 4, TestEnd: 3, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,603 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test3' has finished. hasTestPassed: 'true'
+2016-06-17 08:08:28,603 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test3'}'
+2016-06-17 08:08:28,603 INFO  [main] [JUnit3Helper] TestStart: 4, TestEnd: 4, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,603 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test5' is starting. Notifying SeaLights.
+2016-06-17 08:08:28,603 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test3', new: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:28,603 INFO  [main] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test3'
+2016-06-17 08:08:28,603 INFO  [main] [FootprintsManager] enqueueFootprints. Total footprints: '2', Average size: 194, Chunk size: 388, IsEmpty: false
+2016-06-17 08:08:28,604 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test5'}'
+2016-06-17 08:08:28,604 INFO  [main] [JUnit3Helper] TestStart: 5, TestEnd: 4, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,604 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test5' has failed due to a failure.
+2016-06-17 08:08:28,604 INFO  [main] [JUnit3Helper] Test 'io.demo.tests.MySimpleTest.test5' has finished. hasTestPassed: 'false'
+2016-06-17 08:08:28,605 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='07d96496-63ef-4f3e-9a82-6caed94e67ee', testName='io.demo.tests.MySimpleTest.test5'}'
+2016-06-17 08:08:28,605 INFO  [main] [JUnit3Helper] TestStart: 5, TestEnd: 5, ExecStart:1 ExecEnd: 0
+2016-06-17 08:08:28,607 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-06-17 08:08:28,607 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-06-17 08:08:28,608 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '11' events
+2016-06-17 08:08:28,751 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.16.209.131:8080/api/v1/testevents/'.
+2016-06-17 08:08:38,450 INFO  [pool-1-thread-1] [FootprintsManager] sendCurrentTestPartialFootprints: current test identifier is: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:38,450 INFO  [pool-1-thread-1] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:38,450 INFO  [pool-1-thread-1] [FootprintsManager] enqueueFootprints. Total footprints: '2', Average size: 194, Chunk size: 388, IsEmpty: false
+2016-06-17 08:08:38,455 INFO  [pool-2-thread-1] [FootprintsServiceProxy] [TO FPS] - Total items in queue: 6, queueContents: [{"testName":"__init","executionId":"07d96496-63ef-4f3e-9a82-6caed94e67ee","localTime":1466140108588,"apps":[{"appName":"TestApp","moduleName":null,"build":null,"branch":null,"estimatedSize":258,"footprints":[{"name":"public io.demo.tests.MySimpleTest()","hits":5,"hash":"286ad1d8fa7d78a5af110a2cf2b3358d"},{"name":"public io.demo.MyTestedClass()","hits":5,"hash":"9f9952e1a42b44d78432f8eb5a001cbd"}]}],"size":258},{"testName":"io.demo.tests.MySimpleTest.test4","executionId":"07d96496-63ef-4f3e-9a82-6caed94e67ee","localTime":1466140108596,"apps":[{"appName":"TestApp","moduleName":null,"build":null,"branch":null,"estimatedSize":388,"footprints":[{"name":"public void io.demo.tests.MySimpleTest.test4()","hits":1,"hash":"3ca61f0d902dc5af29b16c12f02a13f0"},{"name":"public java.lang.String io.demo.MyTestedClass.op(java.lang.String, java.lang.String)","hits":1,"hash":"313401692ae7cffbe1c0a86df8afb383"}]}],"size":388},{"testName":"io.demo.tests.MySimpleTest.test2","executionId":"07d96496-63ef-4f3e-9a82-6caed94e67ee","localTime":1466140108602,"apps":[{"appName":"TestApp","moduleName":null,"build":null,"branch":null,"estimatedSize":156,"footprints":[{"name":"public void io.demo.tests.MySimpleTest.test2()","hits":1,"hash":"74a8b8e692d75e4cb1efff17ffc867a8"}]}],"size":156},{"testName":"io.demo.tests.MySimpleTest.test1","executionId":"07d96496-63ef-4f3e-9a82-6caed94e67ee","localTime":1466140108603,"apps":[{"appName":"TestApp","moduleName":null,"build":null,"branch":null,"estimatedSize":388,"footprints":[{"name":"public void io.demo.tests.MySimpleTest.test1()","hits":1,"hash":"c747248e8b1ec1df0ea87b71f1811b35"},{"name":"public java.lang.String io.demo.MyTestedClass.op(java.lang.String, java.lang.String)","hits":1,"hash":"313401692ae7cffbe1c0a86df8afb383"}]}],"size":388},{"testName":"io.demo.tests.MySimpleTest.test3","executionId":"07d96496-63ef-4f3e-9a82-6caed94e67ee","localTime":1466140108603,"apps":[{"appName":"TestApp","moduleName":null,"build":null,"branch":null,"estimatedSize":388,"footprints":[{"name":"public void io.demo.tests.MySimpleTest.test3()","hits":1,"hash":"082f1879a35b91a1b5518a2adc6a1fee"},{"name":"public java.lang.String io.demo.MyTestedClass.op(java.lang.String, java.lang.String)","hits":1,"hash":"313401692ae7cffbe1c0a86df8afb383"}]}],"size":388},{"testName":"io.demo.tests.MySimpleTest.test5","executionId":"07d96496-63ef-4f3e-9a82-6caed94e67ee","localTime":1466140118450,"apps":[{"appName":"TestApp","moduleName":null,"build":null,"branch":null,"estimatedSize":388,"footprints":[{"name":"public void io.demo.tests.MySimpleTest.test5()","hits":1,"hash":"23fc539ec49ef397264d46b73b80ca10"},{"name":"public java.lang.String io.demo.MyTestedClass.op(java.lang.String, java.lang.String)","hits":1,"hash":"313401692ae7cffbe1c0a86df8afb383"}]}],"size":388}]
+2016-06-17 08:08:38,464 INFO  [pool-2-thread-1] [HttpClient] sendRequest was called. Remote url:'http://52.16.209.131:8080/api/v2/testfootprints/'.
+2016-06-17 08:08:48,450 INFO  [pool-1-thread-1] [FootprintsManager] sendCurrentTestPartialFootprints: current test identifier is: '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:48,450 INFO  [pool-1-thread-1] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:48,450 INFO  [pool-1-thread-1] [FootprintsManager] enqueueFootprints. Total footprints: '0', Average size: -1, Chunk size: 0, IsEmpty: true
+2016-06-17 08:08:48,450 INFO  [pool-1-thread-1] [FootprintsManager] Empty footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:49,768 ERROR [Thread-0] [EventsServiceProxy] Failed while trying to submit events. Error:
+java.lang.RuntimeException: [Fiddler] The connection to '52.16.209.131' failed. <br />Error: TimedOut (0x274c). <br />System.Net.Sockets.SocketException A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 52.16.209.131:8080                                                                                                                                                                                          
+	at io.sealights.onpremise.agents.commons.services.JsonClient.processHttpResponse(JsonClient.java:214) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:93) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:86) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.sendRequest(EventsServiceProxy.java:69) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:58) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:81) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:39) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:144) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:17) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:157) [na:na]
+2016-06-17 08:08:49,769 ERROR [Thread-0] [EventQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-06-17 08:08:49,769 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-06-17 08:08:49,769 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-06-17 08:08:49,769 INFO  [Thread-0] [FootprintsManager] Adding footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:49,769 INFO  [Thread-0] [FootprintsManager] enqueueFootprints. Total footprints: '0', Average size: -1, Chunk size: 0, IsEmpty: true
+2016-06-17 08:08:49,769 INFO  [Thread-0] [FootprintsManager] Empty footprints for test '07d96496-63ef-4f3e-9a82-6caed94e67ee/io.demo.tests.MySimpleTest.test5'
+2016-06-17 08:08:49,770 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-06-17 08:08:58,604 INFO  [pool-4-thread-1] [EndTestSupportManager] [TO TSS] - sendGetTestStatusRequest. TestName: 'io.demo.tests.MySimpleTest.test5', ExecutionId: '07d96496-63ef-4f3e-9a82-6caed94e67ee'

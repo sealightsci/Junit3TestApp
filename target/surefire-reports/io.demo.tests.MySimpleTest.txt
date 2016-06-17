@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: io.demo.tests.MySimpleTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE! - in io.demo.tests.MySimpleTest
+test2(io.demo.tests.MySimpleTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IllegalArgumentException
+	at io.demo.tests.MySimpleTest.test2(MySimpleTest.java:17)
+
+test5(io.demo.tests.MySimpleTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:< : > but was:<:>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at io.demo.tests.MySimpleTest.test5(MySimpleTest.java:31)
+

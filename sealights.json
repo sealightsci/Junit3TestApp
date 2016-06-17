@@ -1,0 +1,7 @@
+{
+  "customerId": "SeaLights",
+  "appName": "TestApp",
+  "server": "http://52.16.209.131:8080/api",
+  "proxy": "http://127.0.0.1:8888",
+  "includes":"io.demo.*"
+}
